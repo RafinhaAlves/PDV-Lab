@@ -1,0 +1,30 @@
+{
+  "name": "pdv-lab",
+  "version": "1.0.0",
+  "description": "Back-end de um Ponto de Vendas (PDV) em Node.js + PostgreSQL - projeto de estudo para praticar APIs, queries e modelagem de banco de dados.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafinhaAlves/PDV-Lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafinhaAlves/PDV-Lab/issues"
+  },
+  "homepage": "https://github.com/RafinhaAlves/PDV-Lab#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
